@@ -1,0 +1,20 @@
+
+
+<div class="container-cards">
+    <div class="container-card" *ngFor="let i of users">
+        <div class="cardimg">
+            <img src="{{i.imageUrl}}" alt="" width="180px"> 
+        </div>
+        <div class="card-title">
+            <h1>{{i.name}}</h1>
+        </div>
+        <div class="card">
+            <p>{{i.mail}}</p>
+            <p>{{i.location.address}}</p>
+        </div>
+        <div class="container-btn">
+            <button class="edit">Edit</button>
+            <button class="dele" (click)="delete('a')">Delete</button>
+        </div>
+    </div>
+</div>

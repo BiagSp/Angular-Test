@@ -1,0 +1,17 @@
+.container-cards {
+    display: flex;
+    margin-left: 10px;
+}
+
+
+.container-card {
+    width: max-content;
+    height: max-content;
+    border: 1px solid gray;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+}
+
